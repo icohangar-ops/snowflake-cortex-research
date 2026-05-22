@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: int_earnings_sentiment
+    description: "Earnings calls enriched with AI sentiment analysis and summaries"
+  - name: int_filing_classifications
+    description: "SEC filings classified by risk category and sentiment"
+  - name: int_price_metrics
+    description: "Stock prices with technical indicators (moving averages, volatility)"

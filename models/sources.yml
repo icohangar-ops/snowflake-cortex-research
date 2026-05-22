@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CORTEX_RESEARCH
+    schema: RAW
+    tables:
+      - name: earnings_calls
+        description: "Raw earnings call transcripts with metadata"
+      - name: sec_filings
+        description: "Raw SEC filing sections extracted from 10-K, 10-Q filings"
+      - name: stock_prices
+        description: "Daily stock price data from market feeds"

@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: ml_filing_embeddings
+    description: "Vector embeddings for SEC filing sections using Snowflake Cortex AI"
+  - name: ml_sentiment_training
+    description: "Training dataset for custom sentiment prediction models"

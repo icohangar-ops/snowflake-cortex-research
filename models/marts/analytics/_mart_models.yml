@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: mart_research_signals
+    description: "Composite research signals combining earnings sentiment, filing risk, and price metrics"
+    config:
+      meta:
+        owner: "Data Science Team"
+  - name: mart_earnings_summary
+    description: "Earnings analytics dashboard with post-earnings price impact analysis"
+  - name: mart_filing_dashboard
+    description: "SEC filing risk dashboard with risk categorization and trend tracking"
